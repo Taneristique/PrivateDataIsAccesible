@@ -1,0 +1,31 @@
+{
+  "name": "SensitiveData",
+  "version": "1.0.0",
+  "description": "How to handle sensitive data",
+  "main": "index.js",
+  "author": "taneristique",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.2.0",
+    "hardhat": "^2.13.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.4.0"
+  }
+}
